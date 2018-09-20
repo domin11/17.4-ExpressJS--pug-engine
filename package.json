@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/domin11/17.4-ExpressJS--pug-engine.git"
+    "url": "git+https://github.com/domin11/17.4-ExpressJS-pug-login.git"
   },
   "author": "domin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/domin11/17.4-ExpressJS--pug-engine/issues"
+    "url": "https://github.com/domin11/17.4-ExpressJS-pug-login/issues"
   },
-  "homepage": "https://github.com/domin11/17.4-ExpressJS--pug-engine#readme"
+  "homepage": "https://github.com/domin11/17.4-ExpressJS-pug-login#readme"
 }
