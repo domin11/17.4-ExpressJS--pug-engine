@@ -9,7 +9,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/auth/google', function(req, res){
-    res.render('mainpage', {
+    res.render('main-page', {
       login: req.query.login,
       password: req.query.password
     });
@@ -19,9 +19,9 @@ var server = app.listen(3000, 'localhost', function() {
     var host = server.address().address;
     var port = server.address().port;
 
-    console.log('Przykładowa aplikacja nasłuchuje na http://' + host + ':' + port);
+    console.log('ExpressJS Pug Engine nasłuchuje na http://' + host + ':' + port);
 });
 
 app.use(function (req, res, next) {
-    res.status(404).send('Wybacz, nie mogliśmy odnaleźć tego, czego żądasz!')
+    res.status(404).send('Coś poszło nie tak!')
 });
